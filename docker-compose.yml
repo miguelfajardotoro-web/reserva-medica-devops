@@ -1,0 +1,10 @@
+
+services:
+  reserva-medica:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: reserva-medica:1.0
+    container_name: reserva-medica-iacc
+    ports:
+      - "8080:80"

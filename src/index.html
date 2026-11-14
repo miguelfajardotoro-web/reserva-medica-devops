@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Horas Médicas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Médico Salud Integral</h1>
+        <p>Sistema de Reserva de Horas Médicas</p>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <h2>Solicitud de hora médica</h2>
+            <p>Formulario demostrativo de atención médica.</p>
+
+            <form>
+                <label for="especialidad">Especialidad médica:</label>
+                <select id="especialidad" name="especialidad">
+                    <option value="">Seleccione una especialidad</option>
+                    <option>Medicina General</option>
+                    <option>Pediatría</option>
+                    <option>Cardiología</option>
+                </select>
+
+                <label for="profesional">Profesional:</label>
+                <select id="profesional" name="profesional">
+                    <option value="">Seleccione un profesional</option>
+                    <option>Profesional 1</option>
+                    <option>Profesional 2</option>
+                </select>
+
+                <label for="fecha">Fecha de atención:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <label for="horario">Horario disponible:</label>
+                <select id="horario" name="horario">
+                    <option value="">Seleccione un horario</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>15:00</option>
+                </select>
+
+                <button type="button" disabled>
+                    Reserva demostrativa
+                </button>
+                <p class="aviso">
+                    Esta demostración no registra ni envía datos.
+                </p>
+            </form>
+        </section>
+
+        <section class="contenedor">
+            <h2>Información de atención</h2>
+            <p>Horario: lunes a viernes, de 09:00 a 18:00.</p>
+            <p>Modalidad: atención presencial.</p>
+            <p>Estado del servicio:
+                <span class="estado">Demostración disponible</span>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico DevOps - IACC 2026</p>
+    </footer>
+</body>
+</html>

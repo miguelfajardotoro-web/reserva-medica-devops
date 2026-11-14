@@ -1,0 +1,26 @@
+
+# Variables de entorno privadas
+.env
+.env.*
+!.env.example
+
+# Credenciales y certificados
+*.key
+*.pem
+*.p12
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuracion local del editor
+.vscode/
+
+# Archivos de Python
+__pycache__/
+*.pyc
